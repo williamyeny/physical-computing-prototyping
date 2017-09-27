@@ -33,13 +33,13 @@ Immediately, there are some things that are of interest to us, particularly `Ser
 
 ![repo](https://i.imgur.com/sUXdSP2.png)
 
-So now we know that Lockitron is powered by **Phusion Passenger and nginx**. We can also narrow down the backend technology to either **Ruby, Python or Node.js**.
+So now we know that Lockitron's web server **Phusion Passenger and nginx**. We can also narrow down the app server language to either **Ruby, Python or Node.js**.
 
-While knowing the tech behind Lockitron is great, where is it being hosted? A quick look through the Phusion Passgener docs reveals that there seems to be a lot of support for certain hosts.
+While knowing the tech behind Lockitron is great, where is it being hosted? A quick look through the Phusion Passenger docs reveals that there seems to be a lot of support for certain hosts.
 
 ![docs](https://i.imgur.com/fiS0avU.png)
 
-So we know that it is extremely probable that Lockitron uses **Amazon Web Services, Cloud 66, Digital Ocean or Heroku** to host their service.
+So we know that it is extremely probable that Lockitron uses **Amazon Web Services, Cloud 66, Digital Ocean** or **Heroku** to host their service.
 
 However, I believe this is as far as I can narrow it down just by looking around. Let's find out what platform Lockitron is hosted on for sure by taking the easy way out and using a [host lookup tool](https://hostadvice.com/tools/whois/#api.lockitron.com):
 
