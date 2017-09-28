@@ -68,3 +68,5 @@ One thing I'm not so certain on is enabling Bluetooth on the Redboard, as I have
 # Concluding thoughts
 
 The Lockitron is a pretty useful IoT device, and it's absolutely feasible to recreate it as a student with a development board like the Photon Redboard. I'm also impressed in how streamlined and modern their software stack is.
+
+*All images can be found within `images` in this repository.*
