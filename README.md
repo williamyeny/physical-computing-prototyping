@@ -11,7 +11,9 @@ However, the Lockitron Bolt was initially developed to be just a keyless entry s
 
 An interesting question to propose is "why not integrate WiFi capabilities in the Lockitron Bolt instead of creating two separate devices?" Upon further research, the Lockitron Bolt operates solely over Bluetooth Low Energy. This means the Lockitron Bolt can operate over battery power, while adding a WiFi module may make battery power unviable due to the increased energy consumption. It is feasible to use power from a wall outlet, but connecting something on a door to an outlet is unpractical and ugly at best and dangerous at worst.
 
-## The nitty gritty tech
+## Tech detecting
+
+Let's figure out what runs Lockitron's services!
 
 When I googled the above image of the Lockitron, I noticed the URL of the image: 
 
