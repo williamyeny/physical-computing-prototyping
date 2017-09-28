@@ -52,3 +52,19 @@ Huh, that was easy. Now we know for sure that `api.lockitron.com` is hosted on D
 ## Improvements
 
 I'm going to be honest here; coming from a web developer, this data flow is pretty much perfect. There's minimal third party or outsourced web services in which the Lockitron's core ability depends on, and even if the highly stable DigitalOcean hosting fails, it would be trivial to host it with a different platform. Plus, using an open API allows developers to integrate Lockitron actions in their own applications, which is great.
+
+# Replicate and Replace
+
+Recreating the Lockitron should be trivial, electronics wise. Here's a Tinkercad diagram:
+
+![diagram](https://i.imgur.com/VXkuQ4T.png)
+
+The entire thing is essentially controlling a motor to lock/unlock a deadbolt. However, the actual mechanism in the motor interacting with the lock is a bit more complex, I presume.
+
+We can easily combine the Bridge and Bolt by adding both Bluetooth and WiFi to a single Redboard, at a cost of needing constant power. However, I think the simplicity is worth it.
+
+One thing I'm not so certain on is enabling Bluetooth on the Redboard, as I have never added a Bluetooth module to anything. WiFi is built-in, by I'm guessing I would need to purchase a separate Bluetooth module and mess around with the pins and code to make it work.
+
+# Concluding thoughts
+
+The Lockitron is a pretty useful IoT device, and it's absolutely feasible to recreate it as a student with a development board like the Photon Redboard. I'm also impressed in how streamlined and modern their software stack is.
